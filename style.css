@@ -349,3 +349,7 @@ i.cue, .rm-bar.cue { background: var(--c-cue); }
 
 .cadence div { min-width: 0; }
 .cadence b { overflow-wrap: anywhere; font-size: clamp(24px, 2.4vw, 30px); }
+
+.outcome-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.outcome-list li { position: relative; padding-left: 20px; font-size: 17px; font-weight: 600; line-height: 1.4; }
+.outcome-list li::before { content: ""; position: absolute; left: 2px; top: .62em; width: 8px; height: 8px; border-radius: 2px; background: var(--brand); }
