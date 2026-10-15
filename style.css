@@ -357,3 +357,5 @@ i.cue, .rm-bar.cue { background: var(--c-cue); }
 /* Roadmap v2: parallel blocks split in halves */
 .rm-bar.half-top { height: 8px; margin-top: -9px; border-radius: 4px; }
 .rm-bar.half-bot { height: 8px; margin-top: 1px; border-radius: 4px; }
+
+.person p a, .steps p a { color: var(--fg); text-decoration-color: var(--brand); text-underline-offset: 3px; }
