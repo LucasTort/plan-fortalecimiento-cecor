@@ -342,3 +342,7 @@ i.cue, .rm-bar.cue { background: var(--c-cue); }
 @media (max-width: 560px) { .cover-logo { width: 56px; } }
 .annex-hero .wrap { padding-top: 84px; }
 .hero .wrap { padding-top: max(84px, 72px); }
+
+/* Wording round 1 */
+.hero .lede-2 { color: #FFFFFF; font-weight: 700; }
+.big .when { align-self: flex-start; margin: 0 0 14px; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #FFFFFF; background: var(--brand); padding: 4px 10px; border-radius: 999px; }
