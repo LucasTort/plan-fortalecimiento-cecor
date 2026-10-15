@@ -346,3 +346,6 @@ i.cue, .rm-bar.cue { background: var(--c-cue); }
 /* Wording round 1 */
 .hero .lede-2 { color: #FFFFFF; font-weight: 700; }
 .big .when { align-self: flex-start; margin: 0 0 14px; font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #FFFFFF; background: var(--brand); padding: 4px 10px; border-radius: 999px; }
+
+.cadence div { min-width: 0; }
+.cadence b { overflow-wrap: anywhere; font-size: clamp(24px, 2.4vw, 30px); }
