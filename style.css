@@ -367,6 +367,10 @@ td.nowrap { white-space: nowrap; }
 .steps .rel a { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); transition: background .2s, border-color .2s; }
 .steps .rel a:hover { background: var(--accent-soft); border-color: var(--accent); }
 .steps .rel a { color: #9DB8FF; }
-@media (max-width: 1500px) { .topnav { gap: 0; } .topnav a { padding: 6px 7px; font-size: 12px; } }
+/* Menú superior: compacto para que entren los 9 accesos */
+.topnav { gap: 0; } .topnav a { padding: 6px 7px; font-size: 12px; }
+@media (max-width: 1300px) { .brand span { display: none; } }
+@media (max-width: 959px) { .topnav { display: none; } }
+@media (max-width: 1100px) { .topnav a { padding: 6px 5px; } .brand { font-size: 14px; letter-spacing: .04em; } }
 .next.four { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); }
 @media (max-width: 640px) { .next.four { grid-template-columns: minmax(0,1fr); } }
